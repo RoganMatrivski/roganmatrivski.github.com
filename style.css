@@ -1,0 +1,28 @@
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.displayblock{
+    display: block;
+}
+
+.custom-font
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.link
+{
+    color: #212529;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: #212529;
+    text-decoration: none;
+}
